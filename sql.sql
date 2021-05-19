@@ -60,4 +60,4 @@ PRAGMA foreign_keys = ON;
 
 SELECT *
 FROM User u, Note n 
-WHERE u.username=n.username AND   u.username=1;
+WHERE u.id=n.userId AND   u.id=1;
